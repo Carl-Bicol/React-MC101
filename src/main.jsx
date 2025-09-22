@@ -32,6 +32,14 @@ import { createRoot } from 'react-dom/client'
 // import App from './React Tutorial/ForwardRef'
 // import App from './React Tutorial/HOC'
 // import MyHeader from './React Tutorial/Sass'
+// import MyCar from './React Hooks/useState'
+// import Timer from './React Hooks/useEffect'
+// import Component1 from './React Hooks/useContext'
+// import App from './React Hooks/useRef'
+// import Score from './React Hooks/useReducer'
+// import WithCallbackExample from './React Hooks/useCallback'
+// import App from './React Hooks/useMemo'
+import Home from './React Hooks/CustomHooks'
 
 createRoot(document.getElementById('root')).render(
   // <FirstApp />
@@ -67,4 +75,12 @@ createRoot(document.getElementById('root')).render(
   // <App />
   // <App />
   // <MyHeader />
+  // <MyCar />
+  // <Timer />
+  // <Component1 />
+  // <App />
+  // <Score />
+  // <WithCallbackExample />
+  // <App />
+  <Home />
 )
